@@ -3,6 +3,12 @@ const router = express.Router();
 
 const Lead = require("../models/Lead");
 
+router.get("/test", (req, res) => {
+  res.json({
+    message: "Lead routes are working"
+  });
+});
+
 
 router.get("/", async (req, res) => {
   try {
