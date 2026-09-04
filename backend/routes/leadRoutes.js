@@ -7,7 +7,7 @@ router.get("/test", (req, res) => {
   res.json({
     message: "Lead routes are working"
   });
-});
+});uu
 
 
 router.get("/", async (req, res) => {
