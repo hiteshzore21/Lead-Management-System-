@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = "https://lead-management-system-aemk.onrender.com/api/leads";
+const API = "https://lead-management-system-mg7s.onrender.com/api/leads";
 
 const emptyForm = {
   name: "",
